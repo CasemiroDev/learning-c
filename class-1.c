@@ -1,16 +1,18 @@
 # include <stdio.h>
 
-float x = 85.243542;
+unsigned long int x = 85;
 
 int main() {
     printf("\\Hello World!\n\t");
     printf("\"I'm learning C, it's cool\n");
-    printf("%.2f\t\n", x);
+    printf("%.2d\t\n", x);
     printf("%lu", sizeof(x));
+
     return 0;
 }
 
 // long unsigned int (lu)
+
 
 /*
 int stores 2 or 4 bytes of whole numbers;
