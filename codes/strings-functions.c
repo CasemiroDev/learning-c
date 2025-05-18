@@ -29,7 +29,15 @@ int main() {
     printf("%s\n", str3);
 
     // To compare two strings we can use the strcmp function
-    
+
+    char str4[] = "Hello World!";
+    char str5[] = "Hello World!";
+    int results = strcmp(str4, str5);
+
+    printf("%d\n", results);
+
+    // if result is 0 the strings are equal
+    // if result is greater than 0 the first string is greater than the second
 
 
 }
